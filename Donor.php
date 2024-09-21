@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('localhost', 'root', '','Pets', 80);
+$con = mysqli_connect('172.31.0.115', 'root', '','Pets', 80);
 
 // get the post records
 $fname = $_POST['fname'];
